@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-family:sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #124c72;
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 1px 5px black;
+    justify-content:flex-end;
+
+}
+
+
+.textos{
+    width: 94%;
+    text-align: center;
+    margin-top: 35px ;
+    text-shadow: 4px 2px 4px black;
+    transition:0.8s;
+    
+}
+#home{
+    font-weight:bolder;
+}
+.textos a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 100px;
+    margin: 15px;
+}
+
+.icons{
+    margin-left: 280px;
+}
+.carrinho{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -64px;
+    margin-left: 1190px;
+}
+
+.conta{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-top: -64px;
+    margin-left: 1133px;
+}
+.logo{
+    position: absolute;
+    width: 58px;
+    height: 68px;
+    margin-top: -77px;
+    margin-left: -250px;
+}
+.wish{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    margin-top: -74px;
+    margin-left: 1240px;
+}
+.mostrar{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+
+.search-box {
+  font-size: 15px;
+  border: solid 0.3em #000000;
+  display: inline-block;
+  position: relative;
+  border-radius: 2.5em;
+}
+.search-box input[type=text] {
+  font-family: inherit;
+  font-weight: bold;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.3em 2.1em 0.3em 0.4em;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 2.5em;
+  transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
+}
+.search-box input[type=text]:focus {
+  outline: none;
+}
+.search-box input[type=text]:focus, .search-box input[type=text]:not(:placeholder-shown) {
+  width: 18em;
+  transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.search-box input[type=text]:focus + button[type=reset], .search-box input[type=text]:not(:placeholder-shown) + button[type=reset] {
+  transform: rotate(-45deg) translateY(0);
+  transition: transform 150ms ease-out 800ms;
+}
+.search-box input[type=text]:focus + button[type=reset]:after, .search-box input[type=text]:not(:placeholder-shown) + button[type=reset]:after {
+  opacity: 1;
+  transition: top 150ms ease-out 950ms, right 150ms ease-out 950ms, opacity 150ms ease 950ms;
+}
+.search-box button[type=reset] {
+  background-color: transparent;
+  width: 1.4em;
+  height: 1.4em;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0.55em;
+  right: 0.55em;
+  transform: rotate(-45deg) translateY(2.2em);
+  transition: transform 150ms ease-out 150ms;
+}
+.search-box button[type=reset]:before, .search-box button[type=reset]:after {
+  content: "";
+  background-color: #000000;
+  width: 0.3em;
+  height: 1.4em;
+  position: absolute;
+}
+.search-box button[type=reset]:after {
+  transform: rotate(90deg);
+  opacity: 0;
+  transition: transform 150ms ease-out, opacity 150ms ease-out;
+}
+
+.search-box{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1150px;
+}
+button::before{
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caro {
+height: 50vh;
+width: 50%;
+max-width: 500px;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+}
+
+span {
+font-size: medium;
+}
+
+img {
+    margin-top: 200px;
+box-shadow: 0 1px 2px #0003;
+width: 400%;
+}
+
+.swiper {
+height: 400px;
+}
+
+.swiper-slide {
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+@media (max-width: 450px) {
+.swiper {
+height: 270px;
+}
+}
+.caro{
+position: absolute;
+margin-left: 560px;
+margin-top: -20px;
+}
+
+
+
+.secao{
+    margin-top: 396px;
+    height: 100%;
+    height: 550px;
+    background-color: #84c4ec;
+    text-align: center;
+    justify-content: center;
+    
+}
+    
+    
+.textmm{
+    color: white;
+    text-decoration: none;
+                                                                                              
+}
+.dud{
+    color: whitesmoke;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: -430px;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-shadow: 4px 2px 4px black;
+}
+.dude{
+    color: yellow;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: -310px;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-shadow: 4px 2px 4px black;
+}
+.compre{
+    font-weight: bold;
+    position: absolute;
+    text-decoration:solid;
+    margin-left: 450px;
+    margin-top: -180px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: red;
+    text-shadow: 4px 2px 4px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+footer{
+
+    background-color: 
+#124c72;
+
+    padding: 
+40px;
+
+}
+
+.container-footer{
+
+    max-width: 
+1400px;
+
+    padding: 
+0 4%;
+
+    margin: 
+auto;
+
+}
+
+.row-footer{
+
+    display: 
+flex;
+
+    flex-wrap: 
+wrap;
+
+}
+
+.footer-col{
+
+    width: 
+25%;
+
+    padding: 
+0 5%;
+
+}
+
+.footer-col 
+h4{
+
+    font-size: 
+20px;
+
+    color: 
+white;
+
+    margin-bottom: 
+20px;
+
+    font-weight: 
+500;
+
+    position: 
+relative;
+
+    text-transform: 
+uppercase;
+
+}
+
+.footer-col 
+ul{
+
+    list-style: 
+none;
+
+}
+
+.footer-col 
+ul{
+
+    margin: 
+10px 0;
+
+}
+
+.footer-col 
+ul li 
+a{
+
+    font-size: 
+17px;
+
+    text-transform: 
+capitalize;
+
+    color: 
+white;
+
+    text-decoration: 
+none;
+
+    font-weight: 
+300;
+
+    display:block;
+
+    transition:all
+0.3s 
+ease;
+
+}
+
+.footer-col 
+ul li 
+a:hover{
+
+    color: 
+#cecdcd;
+
+    padding-left: 
+10px;
+
+}
+
+.footer-col 
+.medias-socias{
+
+    margin-top: 
+25px;
+
+}
+
+.footer-col 
+.medias-socias a{
+
+    display: 
+inline-flex;
+
+    align-items: 
+center;
+
+    justify-content: 
+center;
+
+    height: 
+40px;
+
+    width: 
+40px;
+
+    margin: 
+0 10px 
+10px 0;
+
+    text-decoration: 
+none;
+
+    border-radius: 
+50%;
+
+    color: 
+white;
+
+    border: 
+1px solid 
+white;
+
+    transition: 
+all 0.5s 
+ease;
+
+}
+
+ .footer-col 
+.medias-socias a 
+i{
+
+    font-size: 
+20px;
+
+}
+
+.footer-col 
+.medias-socias a:hover{
+
+    color: 
+#124c72;
+
+    background-color: 
+white;
+
+}
+
+.footer-col 
+.form-sub input{
+
+    width: 
+215px;
+
+    padding: 
+10px;
+
+    font-size: 
+15px;
+
+    outline: 
+none;
+
+    border: 
+1px solid 
+white;
+
+    color: 
+white;
+
+    background-color: 
+#124c72;
+
+}
+
+.footer-col 
+.form-sub input::placeholder{
+
+    color: 
+white;
+
+}
+
+.footer-col 
+.form-sub button{
+
+    width: 
+100%;
+
+    margin-top: 
+10px;
+
+    padding: 
+10px;
+
+    font-size: 
+17px;
+
+    outline: 
+none;
+
+    border: 
+none;
+
+    cursor: 
+progress;
+
+    color: 
+#124c72;
+
+    border-radius: 
+3px;
+
+    font-weight: 
+bold;
+
+    background-color: 
+white;
+
+}
+
+
+
+
+
+.footer-buttom{
+
+    background-color:#124c72;
+
+    width: 
+100vw;
+
+    padding: 
+20px 0;
+
+
+}
+
+.titu{
+
+    margin-left: 
+500px;
+
+    margin-top: 
+290px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter-tab {
+background-color: #0099ff;
+color: #fff;
+position: fixed;
+bottom: 0;
+right: -100px;
+width: 250px;
+height: 50px;
+transition: right 0.3s ease-in-out;
+}
+
+.newsletter-tab:hover {
+right: 0;
+}
+
+.newsletter-tab-text {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 50px;
+}
+
+.newsletter-tab-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+}
+
+.newsletter-tab-icon i {
+font-size: 24px;
+}
+
+
+.newsletter-tab{
+    margin-right: 1000px;
+    margin-top: 1400px;
+}
+
+.jude{
+    text-decoration: none;
+    color: #000000;
+    
+}
